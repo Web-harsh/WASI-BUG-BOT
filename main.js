@@ -27,7 +27,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "2348141104435"
+let phoneNumber = "2348082317742"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
